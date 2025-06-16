@@ -38,4 +38,4 @@ jobs:
     environment: ${{ Inputs.target }}   
     steps:
       - name: Deploy
-        run: echo "Deploying to ' ${{ inputs.dryrun }} '" 
+        run: echo "Deploying to ' ${{ inputs.dry-run }} '" 
